@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="ISO-8859-1">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+    <body>
+    <div id="calculator">
+        <div id="display">0</div>
+        <div id="top"><hr></div>
+        <div id="content">
+          <button onclick="insertNumber(7);">7</button>
+          <button onclick="insertNumber(8);">8</button>
+          <button onclick="insertNumber(9);">9</button>
+          <button onclick="calculatorClear();">C</button>
+          <button onclick="insertNumber(4);">4</button>
+          <button onclick="insertNumber(5);">5</button>
+          <button onclick="insertNumber(6);">6</button>
+          <button onclick="computeOperation(1);">+</button>
+          <button onclick="insertNumber(1);">1</button>
+          <button onclick="insertNumber(2);">2</button>
+          <button onclick="insertNumber(3);">3</button>
+          <button onclick="computeOperation(2);">-</button>
+          <button onclick="insertNumber(0);">0</button>
+          <button onclick="computeOperation(3);">x</button>
+          <button onclick="computeOperation(4);">&divide;</button>
+          <button onclick="calculatorEquals();">=</button>
+        </div>
+        <div class="clearfix"><div>
+        <div id="bottom"><p>Developed with &#9825; at Codus.</p></div>
+    </div>
+    <script src="calc.js"></script>
+  </body>
+</html>
