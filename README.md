@@ -1,3 +1,3 @@
-# calculator
+# Calculator
 
-Rep for my first JavaSript project !
+Rep for my first JavaScript project !
